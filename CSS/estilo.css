@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.titulos {
+    color: rgb(138, 151, 225);
+    font-family: "comfortaa";
+}
+
+header div {
+    position: relative;
+    background-color: rgb(130, 54, 140);
+    width: 100%;
+    height: 7vh;
+    display: inline-block;
+}
+
+header section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    height: 15vh;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "comfortaa";
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.menu a:hover {
+    color: rgb(130, 54, 140)
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.menu a:hover .submenu li {
+    top: 0;
+    display: block;
+}
+
+.submenu li {
+    display: none;
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#carrito {
+    background-color: rgb(138, 151, 225);
+    height: 15vh;
+    width: 85px;
+    height: auto;
+}
+
+#logo {
+    left: 10px;
+    top: 100px;
+    width: 300px;
+}
+
+#entry {
+    position: absolute;
+    top: 5px;
+    right: 200px;
+}
+
+#contraseña {
+    position: absolute;
+    top: 6px;
+    right: 250px;
+}
+
+#buscador {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+
+#usuario {
+    position: absolute;
+    top: 6px;
+    right: 400px;
+}
+
+#banner img {
+    width: 100%;
+    display: flex;
+}
+
+#backlinkig {
+    width: 100%;
+    background-color: rgb(138, 151, 225);
+    height: 4vh;
+    display: flex;
+   
+    }
+
+#linkig a {
+    font-family: "comfortaa";
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    
+    
+}
+
+.CatPrin {
+    background-color: rgb(130, 54, 140);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CatPrin h2 {
+    font-family: "comfortaa";
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+}
+
+.CatPrin a:hover {
+    color: rgb(130, 54, 140);
+}
+
+.CatPrin a {
+    border: solid 1px rgb(138, 151, 225);
+    background-color: rgb(138, 151, 225);
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: none;
+    padding: 8px;
+    padding-left: 23vh;
+    padding-right: 23vh;
+}
+
+.Ofertas {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Ofertas h1 {
+    color: rgb(138, 151, 225);
+    font-family: "Comfortaa";
+    margin: 20px;
+}
+
+.Ofertas table {
+    margin: 10px;
+    height: 500px;
+    width: 50%;
+}
+
+.imgOfertas {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 250px;
+}
+
+#dudas {
+    color: black;
+    font-family: "Open Sans";
+    line-height: 30px;
+}
+
+.ig {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+}
+
+.ig div {
+    font-family: "comfortaa";
+    color: white;
+    background-color: rgb(130, 54, 140);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.ig div h3 {
+    margin: 10px;
+}
+
+.ig nav {
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.ig nav img {
+    width: 350px;
+    height: auto;
+    margin-left: 80px;
+    margin-bottom: 100px;
+    transition: all 4s;
+}
+
+.ig nav img:hover {
+    width: 500px;
+    height: 450px;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    background-color: rgb(130, 54, 140);
+    width: 100%;
+    height: 15vh;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left
+}
+
+.Footer1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer1 div img {
+    margin-left: 5px;
+    border: solid 1px lightblue;
+    margin-top: 15px;
+}
+
+.Footer1 p {
+    margin-top: 35px;
+    color: white;
+    font-family: "Open Sans";
+    font-size: small;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 0.75fr [x2] 0.75fr [x3] 1fr;
+    grid-template-rows: [y0] 1fr [y1] 1fr;
+    width: 80%;
+}
+
+.item1 {
+    grid-column: x0;
+    grid-row: y0;
+    background-image: url(images/of2.jpg);
+    background-size: cover;
+}
+
+.item2 {
+    grid-column: x0;
+    grid-row: y1;
+    background-image: url(images/of3.jpg);
+    background-size: cover;
+}
+
+.item3 {
+    grid-column-start: x1;
+    grid-column-end: x3;
+    grid-row: y0 / y2;
+    height: 500px;
+    background-image: url(images/of1.jpg);
+    background-size: cover;
+}
+
+.item4 {
+    grid-column: x3;
+    grid-row: y0;
+    background-image: url(images/of3.jpg);
+    background-size: cover;
+}
+
+.item5 {
+    grid-column: x3;
+    grid-row: y1;
+    background-image: url(images/of2.jpg);
+    background-size: cover;
+}
+
+.opacidad {
+    animation-duration: 2.5s;
+    animation-name: opacidad;
+}
+
+@keyframes opacidad {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.50;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+}

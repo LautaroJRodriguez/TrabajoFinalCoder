@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toda la informacion que necesitas para comunicarte con nosotros!">
+    <meta name="keyword" content="Contacto, Emprendimiento, Skincare, Ubicacion, Localizacion">
+    <title>Contacto</title>
+    <link rel="icon" type="image/png" href="Images/LogoCity.jpg">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <form action="#" method="post" id="buscador">
+                <input type="text" name="nom" placeholder="Productos" value="" />
+                <button><img src="images/lupa.png" width="15px"> Buscar</button>
+            </form>
+
+
+            <form action="ingreso.php" method="post">
+                <input type="text" placeholder="Coloca tu usuario" value="" required id="usuario">
+
+                <input type="password" placeholder="Coloca tu contraseña" value="" required id="contraseña">
+
+                <input type="submit" value="Entrar" id="entry">
+            </form>
+
+        </div>
+
+        <section>
+
+            <img src="Images/LogoCity.jpg" width="125px" alt="Care City Logo" id="logo">
+
+
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="productos.html">Productos</a>
+                        <ul class="submenu">
+                            <li><a href="">Mascarillas</a></li>
+                            <li><a href="">Serum</a></li>
+                            <li><a href="">Cremas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+
+                </ul>
+            </nav>
+
+            <img src="images/carrito.png" alt="Logo de carrito" width="20px" id="carrito">
+
+        </section>
+
+    </header>
+    <br>
+    <hr>
+
+    <section>
+        <h1 class="titulos">COMUNICATE CON NOSOTROS</h1>
+    </section>
+
+    <main>
+        <aside>
+            <p>Aca va google maps con la ubicacion del local</p>
+        </aside>
+        <section>
+            <h2 class="titulos">Formulario de contacto</h2>
+            <form action="Contacto.php"></form>
+            <label for="texto">Nombre y Apellido</label>
+            <input type="text" placeholder="Escribe tu nombre completo" value="" required>
+            <br>
+            <label for="texto">E-mail</label>
+            <input type="email" placeholder="Escribe tu E-mail" value="" required>
+            <br>
+            <label for="#">Telefono</label>
+            <input type="text" placeholder="Escribe tu N° de Telefono" value="">
+            <br>
+            <label for="mensaje">Escribe tu consulta</label>
+            <textarea name="mensaje" cols="40" rows="4" minlength="5" maxlength="200"></textarea>
+            <br>
+            <form action="#" method="post">
+                <p>Producto: <input type="text" name="nom" /></p>
+                <p><button><img src="img/lupa.png" width="15px"> Enviar</button></p>
+        </section>
+        <br>
+        <br>
+
+        <section>
+            <img src="images/logowpp.png" alt="Logo wpp">
+            <p>Numero de celular para enviar wpp</p>
+            <br>
+            <br>
+            <img src="images/telefono.png" alt="Logo telefono fijo">
+            <p>Numero del local para llamar</p>
+            <br>
+            <br>
+            <a href="www.gmail.com">
+                <img src="images/logogmail.png" alt="Logo de gmail">
+            </a>
+            <p>Correo electronico para enviar mail</p>
+        </section>
+    </main>
+    <br>
+    <hr>
+
+    <footer>
+        <a href="www.facebook.com">
+            <img src="Images/facebook.png" width="40px">
+        </a>
+
+        <a href="https://www.instagram.com/carecityoficial/" target="_blank">
+            <img src="Images/instagram.png" width="20px">
+        </a>
+
+        <a href="www.gmail.com">
+            <img src="Images/gmail.png" width="20px">
+        </a>
+
+        <a href="www.Twitter.com">
+            <img src="Images/twitter.jpg" width="20px">
+        </a>
+
+        <a href="www.whatsapp.com">
+            <img src="Images/wpp.jpg" width="25px">
+
+    </footer>
+</body>
+
+</html>
